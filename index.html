@@ -3,84 +3,279 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de Berenice</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f7f7f7;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
 
-        header {
-            background: #6a5acd;
-            color: white;
-            padding: 40px 20px;
-            text-align: center;
-        }
+    <meta 
+        name="description" 
+        content="Portafolio de Berenice Martínez, desarrolladora Front-End."
+    >
 
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
+    <title>Berenice Martínez | Desarrolladora Front-End</title>
 
-        header p {
-            font-size: 1.2rem;
-            margin-top: 10px;
-        }
-
-        section {
-            max-width: 800px;
-            margin: 40px auto;
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-
-        h2 {
-            color: #6a5acd;
-            margin-top: 0;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>Berenice Martínez</h1>
-        <p>Desarrolladora Front-End en crecimiento ✨</p>
+    <!-- HEADER -->
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="#" class="logo">
+                Berenice Martínez
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+        </nav>
+
+        <!-- HERO -->
+        <div class="hero">
+
+            <div class="hero-content">
+
+                <p class="hero-subtitle">
+                    Desarrolladora Front-End
+                </p>
+
+                <h1>
+                    Hola, soy <span>Berenice Martínez</span> 👋
+                </h1>
+
+                <p class="hero-description">
+                    Creo interfaces web modernas, responsivas y enfocadas
+                    en ofrecer una buena experiencia al usuario.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="btn btn-primary">
+                        Ver mis proyectos
+                    </a>
+
+                    <a href="#contacto" class="btn btn-secondary">
+                        Contactarme
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
     </header>
 
-    <section>
-    <h2>Sobre mí</h2>
-    <p>Hola, soy Berenice, una desarrolladora front-end. Me gusta crear interfaces web y compartir mi progreso mientras aprendo tecnologías modernas.</p>
 
-    <p>Ingeniera en Sistemas Computacionales con 2 años de experiencia como desarrolladora Front-End en BBVA, donde me he especializado en la corrección de errores visuales y en la mejora de los módulos de inversión de la aplicación. He trabajado principalmente con JavaScript, LitElement y Polymer. Aunque ya cuento con una base sólida, sigo buscando oportunidades para fortalecer mis habilidades y aprender nuevas tecnologías.</p>
+    <main>
 
-    <p>Me considero una persona proactiva, con motivación constante por mejorar y siempre dispuesta a adaptarme a los cambios del entorno de desarrollo. Actualmente, mi objetivo es seguir creciendo como Front-End Developer y explorar más sobre diseño UX/UI para contribuir a la creación de interfaces más intuitivas y accesibles.</p>
-    </section>
+        <!-- SOBRE MÍ -->
+        <section id="sobre-mi" class="section about">
+
+            <div class="section-title">
+                <p>Conóceme</p>
+                <h2>Sobre mí</h2>
+            </div>
+
+            <div class="about-content">
+
+                <div class="about-text">
+
+                    <p>
+                        Soy Berenice, Ingeniera en Sistemas Computacionales y desarrolladora Front-End. Me interesa crear interfaces web funcionales, responsivas y fáciles de utilizar.
+                    </p>
+
+                    <p>
+                        Cuento con 2 años de experiencia profesional como desarrolladora Front-End en BBVA México, donde trabajé principalmente en módulos de inversión de la aplicación, realizando correcciones visuales, ajustes funcionales y mejoras en la experiencia de usuario.
+                    </p>
+
+                    <p>
+                       Durante esta etapa trabajé con tecnologías como JavaScript, LitElement y Polymer, además de herramientas como Git, GitHub, NPM, Bitbucket y Jira.
+                    </p>
+
+                    <p>
+                        Actualmente continúo fortaleciendo mis conocimientos en desarrollo Front-End, tengo interés en aprender React y explorar temas de UX/UI y diseño responsive.
+                    </p>
+
+                </div>
+
+                <div class="about-highlights">
+
+                    <div class="highlight">
+                        <strong>2 años</strong>
+                        <span>Experiencia profesional</span>
+                    </div>
+
+                    <div class="highlight">
+                        <strong>BBVA México</strong>
+                        <span>Front-End Developer</span>
+                    </div>
+
+                    <div class="highlight">
+                        <strong>Front-End</strong>
+                        <span>JavaScript · LitElement · Polymer</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
 
 
-    <section>
-        <h2>Habilidades</h2>
-        <ul>
-            <li>HTML – Intermedio</li>
-            <li>CSS – Intermedio</li>
-            <li>JavaScript – Intermedio (reforzando)</li>
-            <li>React – Básico (aprendiendo)</li>
-            <li>Git y GitHub – Intermedio</li>
-        </ul>
-    </section>
+        <!-- HABILIDADES -->
+        <section id="habilidades" class="section skills">
 
-    <section>
-        <!-- <h2>Proyectos</h2> -->
-        <p>Aquí agregaré mis proyectos conforme los vaya creando 😊</p>
-    </section>
+            <div class="section-title">
+                <p>Lo que utilizo</p>
+                <h2>Habilidades</h2>
+            </div>
+
+            <div class="skills-container">
+
+                <div class="skill-card">
+
+                    <h3>Frontend</h3>
+
+                    <div class="skill-list">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>Tecnologías</h3>
+
+                    <div class="skill-list">
+                        <span>LitElement</span>
+                        <span>Polymer</span>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>Herramientas</h3>
+
+                    <div class="skill-list">
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>VS Code</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROYECTOS -->
+        <section id="proyectos" class="section projects">
+
+            <div class="section-title">
+                <p>Mi trabajo</p>
+                <h2>Proyectos</h2>
+            </div>
+
+            <p class="section-description">
+                Algunos de los proyectos que he desarrollado mientras
+                continúo fortaleciendo mis habilidades como Front-End Developer.
+            </p>
+
+
+            <div class="projects-container">
+
+                <!-- PROYECTO 1 -->
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <img src="./img/invitacion.png" alt="Vista previa de la invitación digital de boda">
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>Invitación de boda</h3>
+                        <p>
+                            Sitio web interactivo para una invitación de boda, desarrollado con HTML, CSS y JavaScript. Incluye navegación entre secciones, animaciones, reproductor de música, contador,confirmación de asistencia, ubicación mediante Google Maps y personalización del nombre para cada invitado.
+
+                        </p>
+
+                        <div class="project-technologies">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <div class="project-buttons">
+
+                            <a href="https://berenicemartinez-dev.github.io/Invitacion-Digital/" target="_blank" rel="noopener noreferrer">
+                                Ver demo →
+                            </a>
+
+                            <a href="https://github.com/berenicemartinez-dev/Invitacion-Digital" target="_blank" rel="noopener noreferrer">
+                                Ver código →
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACTO -->
+        <section id="contacto" class="section contact">
+
+            <div class="section-title">
+                <p>Hablemos</p>
+                <h2>Contacto</h2>
+            </div>
+
+            <p>
+                ¿Tienes un proyecto o una oportunidad en la que podamos colaborar?
+            </p>
+
+            <a href="mailto:berenice1290ma@gmail.com" class="btn btn-primary">
+                Envíame un correo
+            </a>
+
+            <div class="social-links">
+
+                <a href="https://github.com/berenicemartinez-dev" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
+
+                <a  href="https://www.linkedin.com/in/berenice-martinez-953681412" target="_blank" rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <p>
+            © 2026 Berenice Martínez. Todos los derechos reservados.
+        </p>
+
+    </footer>
 
 </body>
 </html>
